@@ -48,7 +48,6 @@ window.onload = function() {
     btnDivide.addEventListener('click', calc);
     // test
     // test2
-    // updates from terminal
 }
 
 
