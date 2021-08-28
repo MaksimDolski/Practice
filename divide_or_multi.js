@@ -45,7 +45,8 @@ window.onload = function() {
         }
     }
     btnMultiply.addEventListener('click', calc);
-    btnDivide.addEventListener('click', calc);    
+    btnDivide.addEventListener('click', calc);
+    
 }
 
 
