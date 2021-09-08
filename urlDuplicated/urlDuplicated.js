@@ -6,4 +6,4 @@ function dublicateParam(url) {
     console.log(urlReady)
     }
 
-    dublicateParam("https://devtailor.com?first=1&second=2&first=2")
+    dublicateParam("https://devtailor.com?first=1&second=2&first=2") 
