@@ -9,3 +9,4 @@ return result
 }
 
 console.log(getAbsoluteDifference(5));
+
