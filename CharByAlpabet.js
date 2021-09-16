@@ -1,15 +1,21 @@
-function CharByAlphabet(str) {
+function charByAlphabet(str) {
+
     let abc = 'abcdefghijklmnopqrstuvwxyz'
-    for (let i = 0; i < abc.length; i++) {
-        for (let j = 0; j < str.length; j++) {
-            if (str[j] == abc[i]) {
-                str[j] = abc[i + 1]
-                return str
+    let result = ''
+    let strSplit = str.split('')
+
+    for (let i = 0; i < strSplit.length; i++) {
+        for (let j = 0; j < abc.length; j++) {
+            if (strSplit[i] == 'z') {
+                strSplit[i] = 'a'
+                result += strSplit[i]
+
+            } else if (strSplit[i] == abc[j]) {
+                result += abc[j + 1]
             }
         }
     }
-    return str
-
+    return result
 }
 
-console.log(CharByAlphabet('abc'));
+console.log(charByAlphabet('python'))
