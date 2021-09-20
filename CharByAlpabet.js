@@ -18,4 +18,4 @@ function charByAlphabet(str) {
     return result
 }
 
-console.log(charByAlphabet('python'))
+console.log(charByAlphabet('pythonz'))
