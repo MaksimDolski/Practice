@@ -80,5 +80,12 @@ let array3 = array1.concat(array2)
 console.log(array3);
 
 
-  // ********* repeat() *********
-let strRepeat = str.repeat(5) // abcabcabcabcabc
+
+  // ********* ********* STRING METHODS ********* *********
+
+str.repeat(5) // abcabcabcabcabc
+str.substring(str.length - 3) // returns last 3 characters
+str.charAt(str.length - 3) // return 3rd from last one character only
+
+
+
