@@ -5,4 +5,4 @@ function fiveTimesStringCopy(str) {
 
 }
 
-console.log(fiveTimesStringCopy("abc"));
+console.log(fiveTimesStringCopy("abcd"));
