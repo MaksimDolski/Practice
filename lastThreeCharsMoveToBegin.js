@@ -6,7 +6,7 @@ function lastThreeCharsMoveToBegin(str) {
     } else {
         return "The string length should be 3 or more characters"
     }
-    return str
+    return str.substring(0, str.length - 3)
 }
 
 console.log(lastThreeCharsMoveToBegin("JavaScript"));
