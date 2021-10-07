@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet " href="style.css ">
+    <!-- KN Icon -->
+    <link rel="icon" href="https://home.kuehne-nagel.com/o/kn-lgo-theme/images/favicons/favicon-16x16.png" type="image/png ">
+    <!-- Google Fonts -->
+    <link rel="preconnect " href="https://fonts.googleapis.com ">
+    <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap " rel="stylesheet ">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js "></script>
+    <title>KN Frontend App</title>
+</head>
+
+<body>
+    <div class="main">
+        <table class="main-table ">
+            <tr class="main-table-header ">
+                <td>orderno</td>
+                <td>deliverydate</td>
+                <td>customer</td>
+                <td>trackingno</td>
+                <td>status</td>
+                <td>consignee</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <!-- Modal window -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="shipment-form">
+
+                <p class="details">shipment details</p>
+                <form action="" id='form'>
+                    <p>
+                        <label for="order">orderNo</label>
+                        <input type="text" id="order" name="order" value="">
+                    </p>
+
+                    <p>
+                        <label for="date">date</label>
+                        <input type="text" id="date" name="date" value="">
+                    </p>
+
+                    <p>
+                        <label for="customer">customer</label>
+                        <input type="text" id="customer" name="customer" value="">
+                    </p>
+
+                    <p>
+                        <label for="trackingNo">trackingNo</label>
+                        <input type="text" id="trackingNo" name="trackingNo" value="">
+                    </p>
+
+                    <p>
+                        <label for="consignee">consignee</label>
+                        <input type="text" id="consignee" name="consignee" value="">
+                    </p>
+
+                    <p>
+                        <label for="status">status</label>
+                        <input type="text" id="status" name="status" value="">
+                    </p>
+
+                </form>
+                <button name='add' class="btn-shipment btn-shipment-save">Save</button>
+                <button class="btn-shipment btn-shipment-close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

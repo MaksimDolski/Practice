@@ -1,0 +1,156 @@
+             *,
+              ::after,
+              ::before {
+                 padding: 0;
+                 margin: 0;
+                 box-sizing: border-box;
+             }
+             
+             .main {
+                 width: 100%;
+                 margin: 0 auto;
+                 padding: 30px;
+                 color: #525F7F;
+                 font-family: 'Lato', sans-serif;
+                 font-weight: 300;
+             }
+             
+             table {
+                 border-collapse: collapse;
+             }
+             
+             .main-table-header {
+                 text-transform: uppercase;
+                 font-weight: 400;
+                 color: #8898AA;
+                 background-color: #F6F9FC;
+             }
+             
+             .main-table-header td {
+                 padding-bottom: 20px;
+                 padding-top: 20px;
+             }
+             
+             .main-data {
+                 padding-top: 20px;
+                 padding-bottom: 40px;
+                 border-bottom: 1px solid #EDEFF2;
+             }
+             
+             .main-data,
+             .main-table-header td {
+                 padding-left: 20px;
+                 padding-right: 20px;
+             }
+             /* buttons */
+             
+             .btn {
+                 width: 79px;
+                 height: 60px;
+                 border: none;
+                 cursor: pointer;
+             }
+             
+             .btn-open {
+                 background: url(/open.png);
+             }
+             
+             .btn-close {
+                 background: url(/close.png);
+                 margin-left: 10px;
+             }
+             
+             .main-data-btn {
+                 border-bottom: 1px solid #EDEFF2;
+             }
+             /* FORM */
+             
+             .shipment-form {
+                 padding: 30px;
+                 font-family: 'Lato', sans-serif;
+                 font-weight: 300;
+                 color: #525F7F;
+             }
+             
+             form {
+                 display: grid;
+                 grid-template-columns: 1fr 1fr;
+                 grid-gap: 20px;
+             }
+             
+             .details {
+                 text-transform: uppercase;
+                 font-weight: 400;
+                 margin-bottom: 25px;
+             }
+             
+             input {
+                 width: 100%;
+                 height: 40px;
+                 background-color: #E9ECEF;
+                 border: none;
+                 border-radius: 5px;
+                 margin-top: 8px;
+                 color: #8898AA;
+                 padding: 10px;
+                 font-size: 15px;
+             }
+             
+             .btn-shipment {
+                 margin-top: 35px;
+                 margin-right: 10px;
+                 width: 75px;
+                 height: 35px;
+                 border: none;
+                 border-radius: 5px;
+                 background-color: #525F7F;
+                 color: white;
+                 cursor: pointer;
+             }
+             
+             .btn-shipment:hover {
+                 border: 1px solid #525F7F;
+                 background-color: white;
+                 color: #525F7F;
+             }
+             /* Modal window */
+             
+             .modal {
+                 display: none;
+                 position: fixed;
+                 z-index: 1;
+                 left: 0;
+                 top: 0;
+                 width: 100%;
+                 height: 100%;
+                 overflow: auto;
+                 /* Enable scroll if needed */
+                 background-color: rgb(0, 0, 0);
+                 /* Fallback color */
+                 background-color: rgba(0, 0, 0, 0.4);
+                 /* Black w/ opacity */
+             }
+             
+             .modal-content {
+                 background-color: #fefefe;
+                 margin: 15% auto;
+                 /* 15% from the top and centered */
+                 padding: 20px;
+                 width: 70%;
+                 border-radius: 5px;
+             }
+             /* The Close Button */
+             
+             .close {
+                 color: #aaa;
+                 float: right;
+                 font-size: 28px;
+                 font-weight: bold;
+             }
+             
+             .close:hover,
+             .close:focus {
+                 color: black;
+                 text-decoration: none;
+                 cursor: pointer;
+             }
